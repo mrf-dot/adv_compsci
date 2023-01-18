@@ -1,0 +1,23 @@
+Big O Notation:
+
+O(1) - Swapping an array element
+O(n) - Doing a linear search
+O(log n) - Binary Search
+O(n log n) - Quicksort
+O(n^2) - Inefficient sort
+O(n^3) - 3 nested for loops
+O(2^n) - 2 4 8 16 32 ...
+O(n!) - Randomly get an element
+
+Sorting Factors:
+
+1. Space
+2. Memory
+3. Time
+
+Types of Sorts:
+
+Insertion O(n^2)
+Merge O(n log n)
+Quick O(n log n)
+Selection O(n^2)

@@ -1,0 +1,33 @@
+Recursion:
+
+func fib(n)
+	if (n <= 1)
+		return n
+	return fib(n-1) + fib(n-2)
+
+Examples of iteration:
+	for loop
+	while loop
+	goto statement
+
+Extra variables needed for an iterative func fib:
+int prev;
+int curr;
+
+Iterative fib function:
+
+func fib(n)
+	prev = 0
+	curr = 1
+	sum = 0
+	for i in range(1, n)
+		sum = prev + curr
+		prev = curr
+		curr = sum
+
+-	The choice of whether to use a recursive
+	or iterative function is dependent on
+	computing efficiency vs. programming efficiency
+
+-	Iterative functions take more time to write but
+	recursive functions are more computationally expensive

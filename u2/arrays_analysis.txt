@@ -1,0 +1,32 @@
+What is an Array?
+
+- Statically sized: An array is initialized with the amount of elements it can hold
+- Arrays hold a certain number of values of a specific primitive or type
+
+Array: 1 | 2 | 3 | 4 | 5
+int i = 1; // Declares and initializes one variable
+int[] numbers; // Declares an array of variables
+numbers = new int[5]; // Reserves five spaces in memory to store int variables
+numbers = {1, 2, 3, 4, 5}; // Implicitly reserves and gives values to five spaces in memory
+
+- The square bracket operators are used to retrieve and set indices of arrays.
+
+numbers[0] // equals 1
+numbers[0] = 5 // contents {5, 2, 3, 4, 5}
+
+ArrayList:
+
+- Dynamically sized: ArrayLists can be as large as the amount of memory on a computer
+- Each element in an ArrayList points to the next element
+
+ArrayList: 1->2->3->4->5
+ArrayList<Integer> al = new ArrayList<Integer>() // Declares and initializes an ArrayList
+
+class ArrayList {
+	.add(int index, E element) // Inserts an element at an index in the ArrayList
+	.add(E element) // Appends an element to the list
+	.remove(int index) // Deletes an element from the ArrayList
+	.get(int index) // Returns the element at an index
+	.set(int index, E element) // Changes the value of an element in the ArrayList
+	.size() // Returns the amount of elements within the ArrayList
+}

@@ -1,0 +1,37 @@
+Objectives
+
+    Create your own ArrayList
+    Implement an interface
+    Re-size an array when necessary
+    Use generic types with < >
+
+Questions to consider before you start
+
+    What is an interface? What does it do?
+    If a class implements an interface, what does that mean? What has to happen?
+    If you are using a [ ] array in a program and need to add an element, but the array is full, what could you do?
+    What are some things you can do with an ArrayList?
+    In an ArrayList declaration, what does or do?
+
+Questions to consider after you finish
+
+    To make a program that has a re-sizing array, we don't HAVE to implement an interface, so why do we implement interfaces? What is the benefit?
+    Would our re-sizing array algorithm be a good one for really big data sets? Why or why not?
+
+MyArrayList Program Specifications
+
+Download the .zip folder.  You will edit MyArrayList.java
+
+To Do:
+
+Implement the helper methods and ListInterface methods in MyArrayList.java.
+
+MyArrayList Program Expectations
+
+    All requirements have been met
+    Has good formatting.
+        Comment at top with name, date, description.
+        Correct indentation and extra lines for readability
+        Consistent placement of { }
+        Comment above every method, except main.
+        Comments throughout code to improve readability
