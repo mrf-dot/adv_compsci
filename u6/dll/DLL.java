@@ -19,7 +19,7 @@ public class DLL // DoubleLinkedList
 
 	/*
 	 * appends obj to end of list; increases size;
-	 * 
+	 *
 	 * @return true
 	 */
 	public boolean add(Object obj) {
@@ -50,7 +50,7 @@ public class DLL // DoubleLinkedList
 		ind.getPrev().setNext(tmp);
 		ind.setPrev(tmp);
 		++size;
-			
+
 
 	}
 
@@ -75,13 +75,13 @@ public class DLL // DoubleLinkedList
 		DLNode tmp = head;
 		for (int i = 0; i++ < index; tmp = tmp.getNext());
 		Object tobj = tmp.getValue();
-		tmp.setValue(obj);	
+		tmp.setValue(obj);
 		return tobj;
 	}
 
 	/*
 	 * removes the node from position index (zero-indexed). decrements size.
-	 * 
+	 *
 	 * @return the object of the node that was removed.
 	 */
 	public Object remove(int index) {

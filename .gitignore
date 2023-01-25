@@ -1,3 +1,7 @@
 *.class
 *.zip
 replit.nix
+.upm
+.breakpoints
+.replit
+.cache
