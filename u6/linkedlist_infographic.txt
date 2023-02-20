@@ -1,0 +1,29 @@
+Linked Lists
+
+2 Parts:
+- Value
+- Pointer
+
+Head (first element)
+Tail (last element) (head.getPrev())
+
+Circular List (Infinite) head->e1->e2->e3->head->e1->...
+Double Linked List (Value, Pointer next, Pointer previous) head<->e1<->e2<->e3
+
+Methods:
+.get(int index)
+.set(int index)
+.getNext()
+.getPrev()
+.setNext(Object val)
+.setPrev(Object val)
+.add(Object val, int index)
+.remove(int index)
+
+Benefits:
+- Dynamic
+- Space efficient
+
+Downsides:
+- Index is O(n)
+- Resource intensive
