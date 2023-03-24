@@ -1,0 +1,17 @@
+Queue:
+
+Add:
+	An element is added to the front
+Remove:
+	An element is removed from the front
+
+Linked List:
+	Value (1)
+	Pointer of address (0xa1235bc)
+Stack:
+	Top: first element pushed
+	Bottom: last element pushed
+	.peek() // return element at the top
+	.remove() // remove and return element at the top
+
+Store variable lengths of data
