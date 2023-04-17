@@ -1,0 +1,7 @@
+This is
+a test file to make
+sure that filesScanner.java
+words as intended.
+Does it?
+Run filesScanner.java to see.
+Expected size of array: 7
