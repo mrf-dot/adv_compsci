@@ -1,5 +1,5 @@
-// Name:    
-// Date: 
+// Name:
+// Date:
 
 import java.util.*;
 public class PolynomialLab {
@@ -124,6 +124,6 @@ class Polynomial {
  * -----------
  * Sum: 2x^4 + 2x^3 + x^2 + -9x + -1
  * Product: 4x^7 + -6x^5 + -6x^4 + -10x^3 + 22x^2 + 2x + -6
- * 
+ *
  * ----jGRASP: operation complete.
  ********************************************/
